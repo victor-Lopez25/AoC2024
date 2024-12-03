@@ -1,6 +1,6 @@
 @echo off
 
-set opts=-debug -vet -vet-using-param -vet-style
+set opts=-debug -vet-style
 
-odin build %cd%/day2 -out:AoC.exe %opts%
+odin build %cd%/day3 -out:AoC.exe %opts%
 AoC.exe
